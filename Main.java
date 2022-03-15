@@ -12,7 +12,7 @@ public class Main {
         System.out.println("2. Interest account");
         System.out.println("3. Checking account");
         System.out.println("4. CD account");
-        int pin = scn.nextByte();
+        int pin = scn.nextByte();  //You wll explain to the entire class why you selected a byte
         switch (pin) {
             case 1 -> {
                 System.out.println("Charges are: 10% of the available balance every month");
@@ -41,9 +41,13 @@ public class Main {
             }
             default -> {
                 System.out.println("Invalid chose, choose again");
-                main(null);
+                main(null); /// Be ready to explain to the class why you selected a switch statement and the meaning of this line
             }
 
         }
     }
 }
+
+Thank you 
+Marked
+Continue
