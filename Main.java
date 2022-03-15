@@ -12,7 +12,6 @@ public class Main {
         System.out.println("2. Interest account");
         System.out.println("3. Checking account");
         System.out.println("4. CD account");
-        System.out.println("Enter the pin");
         int pin = scn.nextByte();
         switch (pin) {
             case 1 -> {
